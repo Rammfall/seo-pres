@@ -1,0 +1,31 @@
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <script type="text/javascript" charset="utf-8"/>
+    <sitemap>
+        <loc>https://site.com/sitemap-pages.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-catalog.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-products.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-blog.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-articles.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-product-images.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://site.com/sitemap-article-images.xml</loc>
+        <lastmod>2019-01-01T01:00:00+03:00</lastmod>
+    </sitemap>
+</sitemapindex>

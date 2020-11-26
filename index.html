@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/@shower/material/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Basic SEO for html/css devs</h1>
+    </header>
+
+    <section class="slide">
+        <h2>Robots.txt</h2>
+        <code style="font-size: 17px">
+            User-Agent: [name]<br />
+            Disallow: [path in you site]
+        </code>
+    </section>
+
+    <section class="slide">
+        <h2>Sitemap.xml</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Opengraph</h2>
+        <code style="font-size: 17px">
+            &lt;meta property="og:title" content="The Rock" /&gt;<br />
+            &lt;meta property="og:type" content="video.movie" /&gt;<br />
+            &lt;meta property="og:url" content="https://www.imdb.com/title/tt0117500/" /&gt;<br />
+            &lt;meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /&gt;
+        </code>
+        <br>
+        <a href="https://ogp.me/#types">See more</a>
+        <p>Almost exists twitter card for more information for twitter, <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup">See more</a></p>
+    </section>
+    <section class="slide">
+        <h2>FAQ</h2>
+        <pre style="font-size: 14px">
+            &lt;script type="application/ld+json"&gt;<br />
+            {<br />
+                "@context": "https://schema.org",<br />
+                "@type": "FAQPage",<br />
+                "mainEntity": [{<br />
+                    "@type": "Question",<br />
+                    "name": "Question text #1",<br />
+                    "acceptedAnswer": {<br />
+                        "@type": "Answer",<br />
+                        "text": "Answer text #1"<br />
+                    }<br />
+                }]<br />
+            }
+        &lt;/script&gt;
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Valid markup</h2>
+        <p>
+            All html can be valid for html <a href="https://validator.w3.org/">validator</a>
+        </p>
+    </section>
+    <section class="slide">
+        <h2>Html lang</h2>
+        <code style="font-size: 17px">
+            &lt;html lang="en"&gt;<br />
+            &lt;/html&gt;<br />
+        </code>
+    </section>
+    <section class="slide">
+        <h2>Pagespeed</h2>
+        <p>
+            Page speed must be in green area
+        </p>
+    </section>
+    <section class="slide">
+        <h2>Language versions</h2>
+        <p>
+            If site have more one language, we should separate him.
+        </p>
+        <code>
+            https://example.com/<br />
+            https://example.com/en/<br />
+            https://example.com/ru/<br />
+            https://example.com/es/
+        </code>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="node_modules/@shower/core/dist/shower.js"></script>
+    <!-- Copyright © 2020 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
